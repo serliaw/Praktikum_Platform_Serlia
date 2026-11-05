@@ -21,7 +21,8 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@mipmap/ic_launcher_round"
-            android:contentDescription="@string/String_profile_photo" />
+            android:contentDescription="@string/String_profile_photo"
+            tools:ignore="ContentDescription, ImageContrastCheck" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,30 +50,30 @@
 
     <EditText
         android:id="@+id/etNama"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:hint="@string/String_input_name"
         android:inputType="text"
-        tools:ignore="AutoFill"  />
+        tools:ignore="AutoFill, TextFieldSize"  />
 
     <Button
         android:id="@+id/btnToast"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="@string/String_show_toast" />
 
     <Button
         android:id="@+id/btnForm"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/String_open_form_explicit_intent" />
 
     <Button
         android:id="@+id/btnBrowser"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/String_open_website_implicit_intent" />

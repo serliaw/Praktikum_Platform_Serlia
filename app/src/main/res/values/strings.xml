@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Praktikum_PBP</string>
+    <string name="String_profile_photo">Profile Photo</string>
+    <string name="String_hello_users">Hello, Users!</string>
+    <string name="String_status_active">Status: Active</string>
+    <string name="String_input_name">Input Name</string>
+    <string name="String_show_toast">Show Toast</string>
+    <string name="String_open_form_explicit_intent">Open Form (Explicit Intent)</string>
+    <string name="String_open_website_implicit_intent">Open Website (Implicit Intent)</string>
+    <string name="Welcome">Hello, %s! Write your message :</string>
+    <string name="write_message_or_notes">Write message or notes</string>
+    <string name="save">Save</string>
+</resources>
